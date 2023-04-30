@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --var-color-component-white: #ffff;
+  --var-color-component-black: #000;
+  --var-color-component-primary: #0072f5;
+  --var-color-component-rgba: rgb(0, 0, 0, 0.2);
+}
+::selection {
+  background: rgba(0, 0, 0, 0.5);
+}
+html {
+  background: url(../../public/background.svg);
+  padding: 0;
+  height: max-content;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  background: url(../../public/background.svg);
+  padding: 0;
+  height: max-content;
+  box-sizing: border-box;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  user-select: none;
+}
+br {
+  user-select: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0);  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0); 
+}
+.fade {
+  opacity: 0;
+}
+
+[data-animate-in] {
+  opacity: 0;
+  transition: transform 0.8s ease, opacity 0.8s ease
+}
+
+[data-animate-in="up"] {
+  transform: translate3d(0, 24px, 0)
+}
+
+[data-animate-in="left"] {
+  transform: translate3d(-25%, 0, 0)
+}
+
+[data-animate-in="right"] {
+  transform: translate3d(25%, 0, 0)
+}
+
+[data-animate-in="down"] {
+  transform: translate3d(0, -24px, 0)
+}
+
+[data-animate-in="fadeIn"] {
+  transform: translate3d(0, 0, 0)
+}
+
+[data-animate-in].in-view {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transition: transform 0.6s ease, opacity 0.6s ease
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease
+}
+
+.page-loaded .fade-in,.page-loaded.fade-in {
+  opacity: 1
+}
+
+.isSafari.isTouch [data-animate-in],.isSafari.isTouch [data-animate-in="up"] {
+  opacity: 1;
+  transition: none;
+  transform: none
+}
