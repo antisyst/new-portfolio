@@ -5,7 +5,6 @@ import '../styles/Home.module.scss';
 import { motion, useScroll, useSpring } from "framer-motion";
 import MainLogo from "@/logo";
 import { TiDocumentText } from 'react-icons/ti';
-import MyResume from '../docs/my-resume.pdf';
 function Navbar() {
 
 
