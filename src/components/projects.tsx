@@ -158,7 +158,7 @@ export default function Projects() {
                         The app displays a list of matching movies with their posters and description.
                         </ProjectContent>
                         <TechStack>
-                            <TechStackItems>ReactJS, TypeScript, Axios, API</TechStackItems>
+                            <TechStackItems>ReactJS, TypeScript, Axios, REST</TechStackItems>
                         </TechStack>
                         <ProjectButton href="https://raxios.netlify.app/" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
@@ -171,7 +171,7 @@ export default function Projects() {
                         Get weather forecast information for all locations around the world with one touch.
                         </ProjectContent>
                         <TechStack>
-                            <TechStackItems>ViteJS, TypeScript, SASS, API</TechStackItems>
+                            <TechStackItems>ViteJS, TypeScript, SASS, REST</TechStackItems>
                         </TechStack>
                         <ProjectButton href="https://weatvibe.netlify.app/" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
@@ -184,7 +184,7 @@ export default function Projects() {
                         We are here to rescue you. By using our shipping service, your goods will arrive in less than a day.
                         </ProjectContent>
                         <TechStack>
-                            <TechStackItems>ViteJS, TypeScript, SASS, API</TechStackItems>
+                            <TechStackItems>ViteJS, TypeScript, SASS, REST</TechStackItems>
                         </TechStack>
                         <ProjectButton href="https://vathapp.netlify.app" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
@@ -223,7 +223,7 @@ export default function Projects() {
                         Provides up-to-date information on the latest COVID-19 cases, deaths and etc.
                         </ProjectContent>
                         <TechStack>
-                            <TechStackItems>ReactJS, TypeScript, SASS, API</TechStackItems>
+                            <TechStackItems>ReactJS, TypeScript, SASS, REST</TechStackItems>
                         </TechStack>
                         <ProjectButton href="https://realcovid.netlify.app" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
@@ -236,7 +236,7 @@ export default function Projects() {
                         Get Random Person Information fast ( name, surname, country, age, email ).
                         </ProjectContent>
                         <TechStack>
-                            <TechStackItems>ReactJS, TypeScript, SASS, API</TechStackItems>
+                            <TechStackItems>ReactJS, TypeScript, SASS, REST</TechStackItems>
                         </TechStack>
                         <ProjectButton href="https://namest.netlify.app" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
