@@ -163,6 +163,19 @@ export default function Projects() {
                         <ProjectButton href="https://raxios.netlify.app/" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
                     </Slide>
+                       <Slide delay={400} triggerOnce={true} cascade damping={1e-1} >
+                    <ProjectItem>
+                        <ProjectItemH1>.notemind - create notes</ProjectItemH1>
+                        <ProjectDomain href="https://notemind.netlify.app" target="_blank">notemind.netlify.app</ProjectDomain>
+                        <ProjectContent>
+                        You can quickly create unlimited new notes and collections.
+                        </ProjectContent>
+                        <TechStack>
+                            <TechStackItems>ReactJS, TypeScript, SASS, MUI </TechStackItems>
+                        </TechStack>
+                        <ProjectButton href="https://notemind.netlify.app" target="_blank">Visit Project</ProjectButton>
+                    </ProjectItem>
+                    </Slide>
                     <Slide delay={400} triggerOnce={true} cascade damping={1e-1}>
                     <ProjectItem>
                         <ProjectItemH1>weatvibe - today weather</ProjectItemH1>
@@ -202,19 +215,7 @@ export default function Projects() {
                         <ProjectButton href="https://snaxstore.netlify.app" target="_blank">Visit Project</ProjectButton>
                     </ProjectItem>
                     </Slide>
-                    <Slide delay={400} triggerOnce={true} cascade damping={1e-1} >
-                    <ProjectItem>
-                        <ProjectItemH1>.notemind - create notes</ProjectItemH1>
-                        <ProjectDomain href="https://notemind.netlify.app" target="_blank">notemind.netlify.app</ProjectDomain>
-                        <ProjectContent>
-                        You can quickly create unlimited new notes and collections.
-                        </ProjectContent>
-                        <TechStack>
-                            <TechStackItems>ReactJS, TypeScript, SASS, MUI </TechStackItems>
-                        </TechStack>
-                        <ProjectButton href="https://notemind.netlify.app" target="_blank">Visit Project</ProjectButton>
-                    </ProjectItem>
-                    </Slide>
+                 
                     <Slide delay={400} triggerOnce={true} cascade damping={1e-1} >
                     <ProjectItem>
                         <ProjectItemH1>realcovid - COVID-19 Tracker</ProjectItemH1>
