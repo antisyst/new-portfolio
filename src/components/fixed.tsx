@@ -1,5 +1,6 @@
 import { SiInstagram,  SiTwitter } from 'react-icons/si';
 import styled from "styled-components";
+import { AiFillGithub } from "react-icons/ai";
 import { FaTelegramPlane } from 'react-icons/fa';
 
 const StyledContainer = styled.div `
@@ -64,8 +65,8 @@ export default function FixedElements() {
                    </StyledItem>
                 </FixedLiElement>
                 <FixedLiElement>
-                   <StyledItem href='https://twitter.com/Screamis_here' className='animate__animated animate__fadeInUp' target='_blank'>
-                        <SiTwitter/>
+                   <StyledItem href='https://github.com/antisyst' className='animate__animated animate__fadeInUp' target='_blank'>
+                        <AiFillGithub/>
                    </StyledItem>
                 </FixedLiElement>
             </StyledItems>
