@@ -127,7 +127,7 @@ export default function Works() {
                    <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
                 <WorksItem>
                     <WorksH1>Quote Generator</WorksH1>
-                    <WorksButton href="https://rmznlang.netlify.app/" target="_blank">Visit Project</WorksButton>
+                    <WorksButton href="https://quotepe.netlify.app/" target="_blank">Visit Project</WorksButton>
                 </WorksItem>
                 </Fade>
                  <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
