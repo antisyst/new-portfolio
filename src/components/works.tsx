@@ -96,6 +96,42 @@ export default function Works() {
             <WorksContainer>
             <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
                 <WorksItem>
+                    <WorksH1>URL Shortener</WorksH1>
+                    <WorksButton href="https://rmznurl.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                  <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Translator</WorksH1>
+                    <WorksButton href="https://rmznlang.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Truth or Dare</WorksH1>
+                    <WorksButton href="https://dogru.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                  <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Password Generator</WorksH1>
+                    <WorksButton href="https://rmznpass.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                   <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Crypto Price Track</WorksH1>
+                    <WorksButton href="https://coinpricetrack.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                   <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Quote Generator</WorksH1>
+                    <WorksButton href="https://rmznlang.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                 <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
                     <WorksH1>Quiz App</WorksH1>
                     <WorksButton href="https://rmznquiz.netlify.app/" target="_blank">Visit Project</WorksButton>
                 </WorksItem>
