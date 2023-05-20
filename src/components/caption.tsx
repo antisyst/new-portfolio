@@ -40,7 +40,7 @@ export default function CaptionContent() {
     return(
         <CaptionContainer>
             <CaptionItems>
-                <CaptionItem className="className='animate__animated animate__fadeInUp'">success is dependent on effort</CaptionItem>
+                <CaptionItem className="className='animate__animated animate__fadeInUp'">when you build in silence people don't know what to attack</CaptionItem>
             </CaptionItems>
         </CaptionContainer>
     )
