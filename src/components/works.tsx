@@ -108,6 +108,30 @@ export default function Works() {
                 </Fade>
                 <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
                 <WorksItem>
+                    <WorksH1>Digital Consultancy</WorksH1>
+                    <WorksButton href="http://digitalcons.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                  <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Sign Form</WorksH1>
+                    <WorksButton href="https://rmznform.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                  <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Infinite Gallery</WorksH1>
+                    <WorksButton href="https://infinitygallery.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                   <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
+                    <WorksH1>Advanced Navbar</WorksH1>
+                    <WorksButton href="https://perfectnav.netlify.app/" target="_blank">Visit Project</WorksButton>
+                </WorksItem>
+                </Fade>
+                 <Fade delay={100} triggerOnce={true} cascade damping={1e-1}>
+                <WorksItem>
                     <WorksH1>Truth or Dare</WorksH1>
                     <WorksButton href="https://dogru.netlify.app/" target="_blank">Visit Project</WorksButton>
                 </WorksItem>
